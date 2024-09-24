@@ -1,9 +1,9 @@
-count =1
-while count <=100:
-    print(count)
-    count +=1
-print("Done")
-
+# count =1
+# while count <=100:
+#     print(count)
+#     count +=1
+# print("Done")
+#
 count = 100
 while count >=1:
     print(count)
@@ -36,6 +36,7 @@ i =0
 while i< len(nums):
     if(nums[i] == x):
         print("Found idx number: ", i)
+        break
     else:
         print("Finding")
     i += 1
